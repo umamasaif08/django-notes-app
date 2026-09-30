@@ -9,6 +9,7 @@ pipeline {
         stage("Hello") {
             steps {
                 script {
+                    bat "hello"
                     hello()
                 }
             }
